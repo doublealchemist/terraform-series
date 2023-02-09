@@ -1,6 +1,6 @@
 The AWS provider offers a flexible means of providing credentials for authentication. The following methods are supported, in this order, and explained below:
 
-- **Static credentials**
+- **Static credentials**  - #not advisable
      provider "aws" {
        region     = "us-west-2"
        access_key = "my-access-key"
